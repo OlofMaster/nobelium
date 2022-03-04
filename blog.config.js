@@ -1,9 +1,9 @@
 const BLOG = {
-  title: 'Streamax MENA Taxi Wiki',
+  title: 'Streamax MENA Wiki',
   author: 'George',
   email: 'olof@foxmail.com',
   link: 'http://olof.top',
-  description: 'Wiki for MENA taxi',
+  description: 'Wiki for all',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
@@ -16,8 +16,8 @@ const BLOG = {
   showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
-  ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/craigaryhart',
+  ogImageGenerateURL: 'https://og-image-craigary.vercel.app/**George**%20Gan.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fnobelium.vercel.app%2Flogo-for-light-bg.svg', // The link to generate OG image, don't end with a slash
+  socialLink: 'https://www.linkedin.com/in/george-gan-785425157/',
   seo: {
     keywords: ['Blog', 'Website', 'Notion'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
@@ -37,7 +37,7 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: '', // leave it empty if you don't need any comment plugin
+    provider: 'cusdis', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
       repo: '', // The repository of store comments
       owner: '',
@@ -50,7 +50,7 @@ const BLOG = {
       repo: ''
     },
     cusdisConfig: {
-      appId: '', // data-app-id
+      appId: 'df591a33-2320-4c9a-b18f-e79e1817fd55', // data-app-id
       host: 'https://cusdis.com', // data-host, change this if you're using self-hosted version
       scriptSrc: 'https://cusdis.com/js/cusdis.es.js' // change this if you're using self-hosted version
     }
